@@ -1,0 +1,42 @@
+.booking-history-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .booking-history-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .error {
+    color: red;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .appointment-list {
+    margin-top: 20px;
+  }
+  
+  .appointment-item {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .appointment-item p {
+    margin: 5px 0;
+  }
+  
+  .appointment-item p strong {
+    font-weight: bold;
+  }
+  
+  @media (max-width: 768px) {
+    .booking-history-container {
+      padding: 10px;
+    }
+  }
+  
